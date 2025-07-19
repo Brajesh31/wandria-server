@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+.vercel/
+.turbo/
+
+# Logs
+logs
+*.log
+
+# Ignore all env files
+*.env
+
+# Or more explicitly:
+server/*.env
+client/*.env
+
+# OS
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional: ignore frontend builds
+frontend/dist/
+frontend/node_modules/
